@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="S_pzfFrKKDJcZMZB3sTY" name="ページ1">
+        <mxGraphModel dx="354" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="問題を出題する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="34" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="問題を解く" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="234" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="各問題に対する判定" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="434" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="最終スコアの表示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="634" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="94" y="380" as="sourcePoint"/>
+                        <mxPoint x="434" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;ul&gt;&lt;li&gt;日本株のみ&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;ランダムでチャートの一部を表示&lt;/li&gt;&lt;li&gt;銘柄名と銘柄コードを表示&lt;/li&gt;&lt;li&gt;時間軸も表示（yyyy-mm-dd）&lt;/li&gt;&lt;li&gt;値段も表示&lt;/li&gt;&lt;li&gt;出来高も表示&lt;/li&gt;&lt;li&gt;上がるか下がるかのボタンを生成&lt;/li&gt;&lt;li&gt;計5問程度&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="14" y="160" width="186" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="304" y="480" as="sourcePoint"/>
+                        <mxPoint x="294" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;ul&gt;&lt;li&gt;回答をクリック&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="330" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="384" y="490" as="sourcePoint"/>
+                        <mxPoint x="494" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;ul&gt;&lt;li&gt;直近二週間後に現在の値段より上がっているか下がっているか確認&lt;/li&gt;&lt;li&gt;時間軸は選択できるようにする（一週間・二週間・三週間など）&lt;/li&gt;&lt;li&gt;上がっていれば正解表示&lt;/li&gt;&lt;li&gt;下がっていれば不正解表示&lt;/li&gt;&lt;li&gt;（できれば選択した時間軸に応じていくら儲かったかまたはいくらへったかを表示できると良い）&lt;/li&gt;&lt;li&gt;（できれば上昇した理由などをテクニカル的に説明できると最高）&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="150" width="250" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="384" y="290" as="sourcePoint"/>
+                        <mxPoint x="694" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;ul&gt;&lt;li&gt;5問中何問正解したかと正答率を％で表示&lt;/li&gt;&lt;li&gt;（収支を表示できるとよさそう）&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="644" y="300" width="170" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="時間軸" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="434" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="650" as="sourcePoint"/>
+                        <mxPoint x="440" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="長期・中期・短期" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="634" y="650" width="170" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
