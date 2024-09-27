@@ -78,6 +78,8 @@
 | --------------------- | ---------- |
 | Node.js               | 20.16.0    |
 | React.js              | 18.3.1     |
+| Redux                 | -          |
+| Redux-toolkit         | -          |
 | Next.js               | 14.2.5     |
 | TailwindCSS           | 3.4.6      |
 | Prisma                | 5.18.0     |
