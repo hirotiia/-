@@ -6,7 +6,7 @@
 ## 目次
 - [アプリの特徴](#heading-01)
 - [使用するメリット](#heading-02)
-- [環境](#heading-03)
+- [技術スタック](#heading-03)
 - [インストール](#heading-04)
 - [使い方](#heading-05)
 - [ライセンス](#heading-06)
@@ -57,7 +57,7 @@
 ゲーム感覚で株式投資に触れることで、金融リテラシーの向上や投資への興味を促進します。
 
 
-<h2 id="heading-03">環境</h2>
+<h2 id="heading-03">技術スタック</h2>
 <p style="display: inline">
   <!-- フロントエンドのフレームワーク一覧 -->
   <img src="https://img.shields.io/badge/-Node.js-000000.svg?logo=node.js&style=for-the-badge">
@@ -76,12 +76,25 @@
 
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
+| Node.js               | 20.16.0    |
+| React.js              | 18.3.1     |
 | Next.js               | 14.2.5     |
-| React                 | 18.3.1     |
+| TailwindCSS           | 3.4.6      |
 | Prisma                | 5.18.0     |
 | NextAuth              | 4.24.7     |
-| TailwindCSS           | 3.4.6      |
-| Node.js               | 20.16.0    |
+| Supabase              | -          |
+
+| チャートの表示  | バージョン |
+| --------------------- | ---------- |
+| recharts              | -     |
+
+| API  | バージョン |
+| --------------------- | ---------- |
+| Yahoo Finance API     | -     |
+
+
+
+
 
 <h2 id="heading-04">インストール</h2>
 
