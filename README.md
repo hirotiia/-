@@ -12,7 +12,7 @@
 - [ライセンス](#heading-06)
 - [ディレクトリ構成](#heading-07)
 - [注意](#heading-08)
-- [その他ドキュメント](#heading-09)
+
 
 
 <h2 id="heading-01">アプリの特徴</h2>
@@ -118,15 +118,13 @@ http://localhost:3000 でローカルサーバーが立ち上がります。
 
 <h2 id="heading-06">ライセンス</h2>
 
-ライセンスを明示する
-
-E-Book-dealer is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+チャートレ is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 
 <h2 id="heading-07">ディレクトリ構成</h2>
 
 ```
-e-book-dealer/
+root/
 ├── out
 ├── prisma　　　　　　 # prisma設定ファイル
 │   ├── migrations
@@ -136,8 +134,8 @@ e-book-dealer/
 └── src
     ├── app
     │   ├── (page)   # ルーティングファイル
-    │   ├── api
-    │   └── lib      # ライブラリや設定済みのインスタンスをエクスポートするファイルを設置(axiosやreactQueryなど)
+    │   ├── api      # Next API routesファイル
+    │   └── lib      # ライブラリや設定済みのインスタンスをエクスポートするファイルを設置
     ├── components   # ボタンやフォームなど汎用的なコンポーネントを格納
     │   ├── elements # アプリケーション内で頻繁に使用される部品を格納（ボタンなど）
     │   └── layouts  # ページ共通で使用されるガワに当たるコンポーネントを格納（ヘッダー、フッターなど）
@@ -146,21 +144,14 @@ e-book-dealer/
     └── utils        # 汎用的な関数を格納
     └── types        # 型定義ファイル
     └── stores       # アプリケーション全体のグローバルステートの管理
-    └── features     # 一つにページにしか存在しないユニークなコンポーネントを格納
+    └── features     # 固有のページにしか存在しないユニークなコンポーネントを格納
         └── (something)  # src/app/(page)のディレクトリに対応させる（例：/features/login/など）
-            └── components
-            └── layouts
 ```
 
 <h2 id="heading-08">注意</h2>
 
 <ul>
 <li>componentディレクトリ内でデータの取得は行わないでください。できる限りページでデータの取得を行うようにし、コンポーネントはpropsを受け取るだけにとどめてください。</li>
-<li>Stripeはテスト環境を使用しています。そのため、<a href='https://docs.stripe.com/testing#cards' target='_blank'>テスト用のカード情報</a>を使用して決済機能を試すことができます。</li>
 </ul>
-
-<h2 id="heading-09">その他ドキュメント</h2>
-
-- [開発者向け情報](/developer.md)
 
 
