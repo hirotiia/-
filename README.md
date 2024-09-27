@@ -161,6 +161,7 @@ root/
 <h2 id="heading-09">その他ドキュメント</h2>
 
 - [開発者向け情報](/developer.md)
+- [アプリケーションアーキテクチャ](/application-design.md)
 
 
 
